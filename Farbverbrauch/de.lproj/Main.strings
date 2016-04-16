@@ -1,0 +1,54 @@
+
+/* Class = "UINavigationItem"; title = "View Information"; ObjectID = "2d8-Kz-vHT"; */
+"2d8-Kz-vHT.title" = "View Information";
+
+/* Class = "UITextField"; placeholder = "Gewebenamen"; ObjectID = "41u-Rv-sUi"; */
+"41u-Rv-sUi.placeholder" = "Gewebenamen";
+
+/* Class = "UILabel"; text = "Farbmenge in Liter"; ObjectID = "D1L-QI-VIe"; */
+"D1L-QI-VIe.text" = "Farbmenge in Liter";
+
+/* Class = "UITabBarItem"; title = "1K/2K/UV Rezepte"; ObjectID = "Dwl-SI-2x0"; */
+"Dwl-SI-2x0.title" = "1K/2K/UV Rezepte";
+
+/* Class = "UITextField"; placeholder = "Druckgrad in %"; ObjectID = "FJG-U0-f5q"; */
+"FJG-U0-f5q.placeholder" = "Druckgrad in %";
+
+/* Class = "UILabel"; text = "Menge"; ObjectID = "O6C-xP-nlx"; */
+"O6C-xP-nlx.text" = "Menge";
+
+/* Class = "UILabel"; text = "Farbmenge in cm³"; ObjectID = "QdZ-Cc-QxE"; */
+"QdZ-Cc-QxE.text" = "Farbmenge in cm³";
+
+/* Class = "UITextField"; placeholder = "@\"Farbnamen\""; ObjectID = "TDb-wo-oWw"; */
+"TDb-wo-oWw.placeholder" = "Farbnamen";
+
+/* Class = "UITextField"; placeholder = "Anzahl Drucke"; ObjectID = "Vie-aQ-Pjt"; */
+"Vie-aQ-Pjt.placeholder" = "Anzahl Drucke";
+
+/* Class = "UITextField"; placeholder = "Drucklänge in cm"; ObjectID = "Vxa-pT-Qny"; */
+"Vxa-pT-Qny.placeholder" = "Drucklänge in cm";
+
+/* Class = "UINavigationItem"; title = "View Information"; ObjectID = "WYb-Ge-weL"; */
+"WYb-Ge-weL.title" = "View Information";
+
+/* Class = "UITabBarItem"; title = "Farbverbrauch"; ObjectID = "YSF-si-gSu"; */
+"YSF-si-gSu.title" = "Farbverbrauch";
+
+/* Class = "UILabel"; text = "Farbe"; ObjectID = "dOR-oe-LNJ"; */
+"dOR-oe-LNJ.text" = "Farbe";
+
+/* Class = "UILabel"; text = "Ergebnis"; ObjectID = "dVy-Tr-Izr"; */
+"dVy-Tr-Izr.text" = "Ergebnis";
+
+/* Class = "UILabel"; text = "Druckfläche in m²"; ObjectID = "fBZ-5U-39f"; */
+"fBZ-5U-39f.text" = "Druckfläche in m²";
+
+/* Class = "UILabel"; text = "Werteeingabe"; ObjectID = "gYp-VD-zWA"; */
+"gYp-VD-zWA.text" = "Werteeingabe";
+
+/* Class = "UILabel"; text = "Farbbestandteile"; ObjectID = "ikI-f4-cod"; */
+"ikI-f4-cod.text" = "Farbbestandteile";
+
+/* Class = "UITextField"; placeholder = "Druckbreite in cm"; ObjectID = "pEn-tA-M23"; */
+"pEn-tA-M23.placeholder" = "Druckbreite in cm";

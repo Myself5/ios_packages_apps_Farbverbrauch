@@ -1,0 +1,11 @@
+/* 
+  Strings.strings
+  Farbverbrauch
+
+  Created by Christian Oder on 16/04/16.
+  Copyright © 2016 M5 Technologies. All rights reserved.
+*/
+
+/* No Internet connection Strings */
+"No Internet" = "Keine Internetverbindung";
+"No Internet Connection" = "Keine Internetverbindung. Bitte überprüfen sie, ob sie online sind.";
