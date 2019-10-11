@@ -170,6 +170,11 @@ NSArray *data;
         tableViewController = [[UITableViewController alloc] init];
         [tableViewController.tableView setDelegate:self];
         [tableViewController.tableView setDataSource:self];
+        
+        if (@available(iOS 13.0, *)) {
+            self.backgroundColor = UIColor.systemBackgroundColor;
+        }
+        
         if (self.backgroundColor == nil) {
             //Background color has not been set by the user. Use default color instead.
             [tableViewController.tableView setBackgroundColor:[UIColor colorWithRed:240.0/255.0 green:240.0/255.0 blue:240.0/255.0 alpha:1.0]];

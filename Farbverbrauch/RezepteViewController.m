@@ -22,7 +22,7 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     // Do any additional setup after loading the view, typically from a nib.
-    NSURL *scriptUrl = [NSURL URLWithString:@"http://farbverbrauch.myself5.de/_h5ai_json/online.txt"];
+    NSURL *scriptUrl = [NSURL URLWithString:@"https://farbverbrauch.myself5.de/_h5ai_json/online.txt"];
     NSData *online = [NSData dataWithContentsOfURL:scriptUrl];
     if (online){
         [self generateData];
@@ -39,6 +39,10 @@
         [alert addAction:defaultAction];
         [self presentViewController:alert animated:YES completion:nil];
     }
+    
+    if (@available(iOS 13.0, *)) {
+        self.view.backgroundColor = UIColor.systemBackgroundColor;
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -54,18 +58,18 @@
         //
         //
         NSError* err = nil;
-        data = [[NSMutableArray alloc] init];
+        self->data = [[NSMutableArray alloc] init];
         
         //        NSString* dataPath = [[NSBundle mainBundle] pathForResource:@"rezepte_ios" ofType:@"json"];
         
-        NSData *RezepteURL = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:@"http://farbverbrauch.myself5.de/_h5ai_json/rezepte.json"]];
+        NSData *RezepteURL = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:@"https://farbverbrauch.myself5.de/_h5ai_json/rezepte.json"]];
         //        NSArray* contents = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:dataPath] options:kNilOptions error:&err];
         NSArray* contents = [NSJSONSerialization JSONObjectWithData:RezepteURL options:kNilOptions error:&err];
         dispatch_async( dispatch_get_main_queue(), ^{
             // Add code here to update the UI/send notifications based on the
             // results of the background processing
             [contents enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-                [data addObject:[NSDictionary dictionaryWithObjectsAndKeys:[obj objectForKey:@"Farbnamen"], @"DisplayText",obj,@"CustomObject", nil]];
+                [self->data addObject:[NSDictionary dictionaryWithObjectsAndKeys:[obj objectForKey:@"Farbnamen"], @"DisplayText",obj,@"CustomObject", nil]];
             }];
         });
     });
