@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="C0B-0j-sSZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="PQP-Dv-Kuc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ifr-fe-Iw0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Copyright © 2019 M5 Technologies. All rights reserved." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2La-gX-Ob3">
+                                <rect key="frame" x="20" y="844" width="374" height="19"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="SplashIcon" translatesAutoresizingMaskIntoConstraints="NO" id="hYi-8m-guA">
+                                <rect key="frame" x="57" y="298" width="300" height="300"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="2La-gX-Ob3" firstAttribute="leading" secondItem="ifr-fe-Iw0" secondAttribute="leading" constant="20" id="Eh5-a6-v2R"/>
+                            <constraint firstItem="hYi-8m-guA" firstAttribute="centerY" secondItem="ifr-fe-Iw0" secondAttribute="centerY" id="Mqi-L3-n93"/>
+                            <constraint firstItem="hYi-8m-guA" firstAttribute="centerX" secondItem="ifr-fe-Iw0" secondAttribute="centerX" id="Rkz-Yd-l7Q"/>
+                            <constraint firstAttribute="trailing" secondItem="2La-gX-Ob3" secondAttribute="trailing" constant="20" id="f3w-mt-KJb"/>
+                            <constraint firstItem="PQP-Dv-Kuc" firstAttribute="top" secondItem="2La-gX-Ob3" secondAttribute="bottom" constant="-1" id="h7P-i9-ZbE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SplashIcon" width="300" height="300"/>
+    </resources>
+</document>

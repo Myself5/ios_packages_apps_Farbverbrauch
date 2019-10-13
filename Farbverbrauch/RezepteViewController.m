@@ -39,10 +39,6 @@
         [alert addAction:defaultAction];
         [self presentViewController:alert animated:YES completion:nil];
     }
-    
-    if (@available(iOS 13.0, *)) {
-        self.view.backgroundColor = UIColor.systemBackgroundColor;
-    }
 }
 
 - (void)didReceiveMemoryWarning

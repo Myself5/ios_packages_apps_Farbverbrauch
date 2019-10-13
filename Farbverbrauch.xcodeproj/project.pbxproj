@@ -22,6 +22,7 @@
 		0A2293151943A7A0008C0944 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A2293131943A7A0008C0944 /* InfoPlist.strings */; };
 		0A2293171943A7A0008C0944 /* MPGTextFieldDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2293161943A7A0008C0944 /* MPGTextFieldDemoTests.m */; };
 		790C2FA11C78D2700098F76E /* MPGTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 790C2FA01C78D2700098F76E /* MPGTextField.m */; };
+		7974A8D923529290006DC416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7974A8D823529290006DC416 /* LaunchScreen.storyboard */; };
 		799F20F81C78D1290058C8C1 /* RechnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799F20F71C78D1290058C8C1 /* RechnerViewController.m */; };
 		79C578561CC2DAAF00BA037C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C578551CC2DAAF00BA037C /* SystemConfiguration.framework */; };
 		79C578591CC2E4B300BA037C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79C5785B1CC2E4B300BA037C /* Localizable.strings */; };
@@ -57,6 +58,7 @@
 		0A2293161943A7A0008C0944 /* MPGTextFieldDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPGTextFieldDemoTests.m; sourceTree = "<group>"; };
 		790C2F9F1C78D2700098F76E /* MPGTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPGTextField.h; path = MPGTextField/MPGTextField.h; sourceTree = "<group>"; };
 		790C2FA01C78D2700098F76E /* MPGTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPGTextField.m; path = MPGTextField/MPGTextField.m; sourceTree = "<group>"; };
+		7974A8D823529290006DC416 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		797E156F1C7A19030070B56C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		797E15701C7A19030070B56C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		797E15711C7A19030070B56C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 			children = (
 				790C2F9E1C78D25C0098F76E /* MPGTextField */,
 				0A2292FA1943A7A0008C0944 /* AppDelegate.h */,
+				7974A8D823529290006DC416 /* LaunchScreen.storyboard */,
 				0A2292FB1943A7A0008C0944 /* AppDelegate.m */,
 				0A2292FD1943A7A0008C0944 /* Main.storyboard */,
 				0A2293001943A7A0008C0944 /* RezepteViewController.h */,
@@ -263,6 +266,7 @@
 				0A2293041943A7A0008C0944 /* Images.xcassets in Resources */,
 				79C578591CC2E4B300BA037C /* Localizable.strings in Resources */,
 				0A2292F61943A7A0008C0944 /* InfoPlist.strings in Resources */,
+				7974A8D923529290006DC416 /* LaunchScreen.storyboard in Resources */,
 				0A2292FF1943A7A0008C0944 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,11 +454,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Farbverbrauch/Farbverbrauch-Prefix.pch";
 				INFOPLIST_FILE = "Farbverbrauch/Farbverbrauch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = de.myself5.farbverbrauch2;
 				PRODUCT_NAME = Farbverbrauch;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,11 +470,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Farbverbrauch/Farbverbrauch-Prefix.pch";
 				INFOPLIST_FILE = "Farbverbrauch/Farbverbrauch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = de.myself5.farbverbrauch2;
 				PRODUCT_NAME = Farbverbrauch;
 				TARGETED_DEVICE_FAMILY = "1,2";
