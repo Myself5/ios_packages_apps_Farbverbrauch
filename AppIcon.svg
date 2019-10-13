@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="495mm"
-   height="495mm"
-   viewBox="0 0 495 495"
+   width="585mm"
+   height="585mm"
+   viewBox="0 0 585 585"
    version="1.1"
    id="svg8"
    inkscape:version="1.0beta1 (32d4812, 2019-09-19)"
@@ -38,6 +38,10 @@
     </clipPath>
   </defs>
   <sodipodi:namedview
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
      id="base"
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -45,10 +49,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="702.85714"
-     inkscape:cy="791.42857"
+     inkscape:cx="400"
+     inkscape:cy="560"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      showborder="false"
@@ -71,14 +75,26 @@
   </metadata>
   <g
      inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Background">
+    <rect
+       style="fill:#ffffff;stroke-width:0.329897;stroke-linejoin:round"
+       id="rect73"
+       width="585"
+       height="585"
+       x="0"
+       y="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Circle"
      style="display:inline;opacity:1">
     <circle
        style="fill:#103794;fill-opacity:1;stroke:none;stroke-width:0.890639;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path1034"
-       cx="247.5"
-       cy="247.5"
+       cx="292.5"
+       cy="292.5"
        r="247.5" />
   </g>
   <g
@@ -87,7 +103,7 @@
      inkscape:label="Red"
      style="display:inline;opacity:1">
     <rect
-       transform="translate(-10,-3)"
+       transform="translate(35,42)"
        style="display:inline;opacity:1;fill:#fe4c0c;fill-opacity:1;stroke:none;stroke-width:0.316033;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect1038"
        width="380"
@@ -96,7 +112,7 @@
        y="153"
        clip-path="url(#clipPath1179)" />
     <rect
-       transform="translate(-10,-3)"
+       transform="translate(35,42)"
        style="display:inline;opacity:1;fill:#fe4c0c;fill-opacity:1;stroke:none;stroke-width:0.479229;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect1040"
        width="380"
